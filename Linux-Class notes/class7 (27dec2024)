@@ -8,7 +8,7 @@ cut -d ":" -f 1,6 /etc/passwd
 cut -d ":" -f 1,2,3,4 /etc/passwd
 cut -d ":" -f 1-4 /etc/passwd
 
-cat /etc/passwd | cut -d ":" -f 1,6 /etc/passwd
+cat /etc/passwd | cut -d ":" -f 1,6
 
 =========================================
 
